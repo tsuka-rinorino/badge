@@ -12,7 +12,7 @@
 import '@/assets/scss/app.scss';
 import { Vue } from 'vue-property-decorator';
 
-export default class App extends Vue {}
+export default Vue.extend();
 </script>
 
 <style lang="scss">

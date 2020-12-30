@@ -6,13 +6,13 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Vue } from 'vue-property-decorator';
+import { Data, Methods, Computed, Props } from './index';
 import HelloWorld from '@/components/HelloWorld/index.vue';
 
-@Component({
+export default Vue.extend<Data, Methods, Computed, Props>({
   components: {
     HelloWorld,
   },
-})
-export default class Home extends Vue {}
+});
 </script>
