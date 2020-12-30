@@ -1,0 +1,21 @@
+@import "../../../node_modules/normalize.css/normalize.css";
+@import "./setting/variables";
+
+* {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  color: $oc-gray-9;
+  height: 100%;
+  padding: 0;
+}
+body {
+  height: 100%;
+}
