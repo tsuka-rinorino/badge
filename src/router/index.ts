@@ -8,12 +8,7 @@ const routes: Array<RouteConfig> = [
     path: '/',
     name: 'Home',
     component: () => import('../pages/Home/index.vue'),
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import('../pages/About/index.vue'),
-  },
+  }
 ];
 
 const router = new VueRouter({
