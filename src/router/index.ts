@@ -8,6 +8,11 @@ const routes: Array<RouteConfig> = [
     path: '/',
     name: 'Home',
     component: () => import('../pages/Home/index.vue'),
+  },
+  {
+    path: '/item/:itemId',
+    name: 'ItemId',
+    component: () => import('../pages/ItemId/index.vue'),
   }
 ];
 

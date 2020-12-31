@@ -2,7 +2,12 @@
   <div class="card">
     <router-link
       class="card__thumbnail"
-      to="/"
+      :to="{
+        name: 'ItemId',
+        params: {
+          ItemId
+        }
+      }"
     >
       <figure class="card__figure">
         <img
@@ -22,10 +27,17 @@
 </template>
 
 <script lang="ts">
-import { Vue } from 'vue-property-decorator';
+import Vue from 'vue';
 import { Data, Methods, Computed, Props } from './index';
 
-export default Vue.extend<Data, Methods, Computed, Props>();
+export default Vue.extend<Data, Methods, Computed, Props>({
+  props: {
+    card: {
+      type: Object,
+      required: true,
+    },
+  },
+});
 </script>
 
 <style lang="scss">

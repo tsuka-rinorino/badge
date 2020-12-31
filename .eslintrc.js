@@ -4,6 +4,9 @@ module.exports = {
     parser: 'babel-eslint',
     sourceType: 'module'
   },
+  extends:[
+    'plugin:vue/recommended'
+  ],
   rules: {
     'no-empty-interface': 0,
     'no-multi-spaces': 2,

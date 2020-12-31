@@ -1,13 +1,17 @@
 <template>
   <ul class="card-list">
-    <li v-for="card in cards" :key="card.id" class="card-list__item">
-      <Card />
+    <li
+      v-for="card in cards"
+      :key="card.id"
+      class="card-list__item"
+    >
+      <Card :card="card" />
     </li>
   </ul>
 </template>
 
 <script lang="ts">
-import { Vue } from 'vue-property-decorator';
+import Vue from 'vue';
 import { Data, Methods, Computed, Props } from './index';
 import Card from '@/components/Card/index.vue';
 
