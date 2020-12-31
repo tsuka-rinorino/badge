@@ -1,11 +1,23 @@
 <template>
   <div class="card">
-    <router-link class="card__thumbnail" to="/">
+    <router-link
+      class="card__thumbnail"
+      to="/"
+    >
       <figure class="card__figure">
-        <img class="card__img" src="https://placehold.jp/256x192.png" alt="">
+        <img
+          class="card__img"
+          src="https://placehold.jp/256x192.png"
+          alt=""
+        >
       </figure>
     </router-link>
-    <router-link class="card__name" to="/">リボン</router-link>
+    <router-link
+      class="card__name"
+      to="/"
+    >
+      リボン
+    </router-link>
   </div>
 </template>
 

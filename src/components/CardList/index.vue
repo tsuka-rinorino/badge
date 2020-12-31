@@ -34,7 +34,7 @@ export default Vue.extend<Data, Methods, Computed, Props>({
           id: 5
         }
       ]
-    }
+    };
   }
 });
 </script>
@@ -52,12 +52,12 @@ export default Vue.extend<Data, Methods, Computed, Props>({
   @media (min-width: #{256 * 3 + 32 * 2 + 80}px) {
     grid-template-columns: repeat(auto-fill, 256px);
     grid-gap: 40px 32px;
-    max-width: #{256 * 3 + 32 * 2}px;    
+    max-width: #{256 * 3 + 32 * 2}px;
     padding-left: 0;
     padding-right: 0;
   }
   @media (min-width: #{256 * 4 + 32 * 3 + 80}px) {
-    max-width: #{256 * 4 + 32 * 3}px;    
+    max-width: #{256 * 4 + 32 * 3}px;
   }
 }
 </style>
