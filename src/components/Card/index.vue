@@ -5,7 +5,7 @@
       :to="{
         name: 'ItemId',
         params: {
-          ItemId
+          itemId: 1
         }
       }"
     >
