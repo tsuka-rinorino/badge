@@ -21,7 +21,7 @@
       class="card__name"
       to="/"
     >
-      リボン
+      リボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボンリボン
     </router-link>
   </div>
 </template>
@@ -59,6 +59,7 @@ export default Vue.extend<Data, Methods, Computed, Props>({
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
+    line-height: 1.4;
     color: $oc-gray-9;
   }
 }
